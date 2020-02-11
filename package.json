@@ -1,0 +1,31 @@
+{
+  "name": "reviews-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy Server for FEC",
+  "main": "./server/proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/proxy.js",
+    "start-dev": "nodemon ./server/proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRR43-Team-Leia/Reviews-Proxy-Server.git"
+  },
+  "author": "Dan Moy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRR43-Team-Leia/Reviews-Proxy-Server/issues"
+  },
+  "homepage": "https://github.com/HRR43-Team-Leia/Reviews-Proxy-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
